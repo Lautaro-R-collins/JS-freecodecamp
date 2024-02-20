@@ -17,21 +17,13 @@ const checkForPalindrome = input => {
   // Convertir el input a minúsculas y eliminar caracteres especiales
   const lowerCaseStr = input.replace(/[^A-Za-z0-9]/gi, '').toLowerCase();
 
-  // Verificar si el texto es un palíndromo y generar el mensaje 
+  // Verificar si el texto es un palíndromo  
   let resultMsg = `<span>${originalInput}</span> ${
     lowerCaseStr === [...lowerCaseStr].reverse().join('') ? 'is' : 'is not'
   } a palindrome.`;
 
-  // Crear un elemento <p> para mostrar el mensaje
-  const pTag = document.createElement('p');
-  pTag.className = 'user-input'; // Establecer la clase CSS
-  pTag.innerHTML = resultMsg; // Establecer el contenido HTML del <p>
-
-  // Agregar el <p> al div de resultados
-  resultDiv.appendChild(pTag);
-
-  // Mostrar el resultado
-  resultDiv.classList.remove('hidden');
+ 
+  
 };
 
 // Event listener para el clic 

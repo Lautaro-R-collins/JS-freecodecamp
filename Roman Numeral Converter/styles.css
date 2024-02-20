@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Russo+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Russo One', sans-serif;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #1a1c34;
+  color: #ffffff;
+}
+
+.title {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 3.5rem;
+  margin-bottom: -70px;
+  color: #e36334;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 150px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.container {
+  width: min(100vw, 450px);
+  min-height: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffffff ;
+  border: solid 4px  #e36334;
+}
+
+#number {
+  height: 30px;
+  width: 250px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px;
+  border: none;
+  border-bottom: 3px solid #ff5900;
+}
+
+button {
+  width: 90px;
+  border: solid 2px #ff5900;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e37a34;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff5900; 
+}
+
+.output {
+  color: #fff;
+  border: 3px solid #ff5900;
+  font-size: 2rem;
+  width: 90%;
+  max-width: 500px;
+  min-height: 55px;
+  margin-top: 25px;
+  padding: 15px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.alert {
+  font-size: 2rem;
+  border: 3px solid #ff5900;
+  color: #ff5900;
+}
