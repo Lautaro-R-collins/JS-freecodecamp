@@ -30,7 +30,7 @@ const checkNumPhone = input => {
   resultsDiv.appendChild(output);
 };
 
-// Alert msg Please provide a phone number
+// check btn
 checkBtn.addEventListener('click', () => {
   checkNumPhone(userInput.value);
   userInput.value = '';
